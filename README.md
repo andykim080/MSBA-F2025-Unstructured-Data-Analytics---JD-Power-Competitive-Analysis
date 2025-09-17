@@ -1,8 +1,8 @@
-Entry-Level Luxury Car Forum Analysis
+# Entry-Level Luxury Car Forum Analysis
 
 Analyzing consumer sentiment and brand mentions from scraped forum posts
 
-Summary
+# Summary
 
 This project involves collecting and analyzing unstructured text data from the Edmunds online forum on entry-level luxury sedans. The workflow begins with web scraping using Selenium and BeautifulSoup to extract thousands of discussion posts, including usernames, dates, and raw text content. The scraped data is stored in a CSV file for further analysis.
 
@@ -12,7 +12,7 @@ Exploratory analysis is conducted with word frequency counts to identify the mos
 
 Network analysis is also introduced: brands are represented as nodes, with edges weighted by lift ratios. Centrality measures (in-degree, PageRank) identify the most influential brands in discussions, offering insights into consumer aspirations and attention distribution.
 
-How to Use
+# How to Use
 
 Install required libraries:
 
@@ -40,7 +40,7 @@ Lift ratio tables for co-occurring brands.
 
 Network plots showing central brands in consumer discussions.
 
-Evaluation
+# Evaluation
 
 The project successfully demonstrates how unstructured forum data can be transformed into structured insights on brand positioning. Frequency analysis highlights BMW, Lexus, and Mercedes-Benz as consistently mentioned brands. Lift ratio results reveal which brands are disproportionately associated with aspirational language.
 
